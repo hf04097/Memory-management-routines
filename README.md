@@ -11,7 +11,7 @@ Following functions are implemented with the described behaviour:
 
 * **void *my_calloc(int num, int size):** this mimics the behaviour of libc calloc() function.
 
-* **void *my_realloc(void *, int size):** this mimics the behaviour of libc realloc() function.
+* **void *my_realloc(void*, int size):** this mimics the behaviour of libc realloc() function.
 
 * **void my_coalesce():** this coalesces the fragmented free list.
 
