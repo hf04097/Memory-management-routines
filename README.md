@@ -9,9 +9,9 @@ Following functions are implemented with the described behaviour:
 
 * **void my_free (void *):** this function takes a pointer previouly allocated by  my_malloc() and free it i.e., returns the memory pointed to by this pointer to the pool of memory maintainined internally so that it can be used in a subsequent call to my_malloc(). In case it is passed an invalid pointer it exits the program by displaying a suitable error message.
 
-* **void * my_calloc(int num, int size):** this mimics the behaviour of libc calloc() function.
+* **void *my_calloc(int num, int size):** this mimics the behaviour of libc calloc() function.
 
-* **void * my_realloc(void *, int size):** this mimics the behaviour of libc realloc() function.
+* **void *my_realloc(void *, int size):** this mimics the behaviour of libc realloc() function.
 
 * **void my_coalesce():** this coalesces the fragmented free list.
 
